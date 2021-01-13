@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y42KY5oYjJB32NaNO/MVfqgHa3lFQBvmOcDI5dMSul77G1Da3jbjUuq5x+yQaU52202ZWhtPuTnTBs1mzMQdzA==",
+  "dgSpecHash": "eJWczRHWn13mFWH0mZGOIcabJxT2qHdTCKy9PLPktk0V2q54uAMyb9+eNyjZK8vChj7Y+VyX8QXyKb/C8i4QeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\EPlayers_AspNetCore\\EPlayers_AspNetCore.csproj",
+  "projectFilePath": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Senai\\EPlayers_AspNetCore\\EPlayers_AspNetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leand\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
   ],
