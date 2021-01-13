@@ -51,6 +51,7 @@ namespace EPlayers_AspNetCore.Models
                 novaEquipe.IdEquipe = int.Parse(linha[0]);
                 novaEquipe.Nome = linha[1];
                 novaEquipe.Imagem = linha[2];
+                equipes.Add(novaEquipe);
             }
 
             return equipes;
