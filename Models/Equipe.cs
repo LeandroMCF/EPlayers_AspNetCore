@@ -33,7 +33,6 @@ namespace EPlayers_AspNetCore.Models
         {
             List<string> linhas = ReadAllLinesCSV(PATH);
             linhas.RemoveAll(x => x.Split(";")[0] == id.ToString());
-
             ReWriteCSV(PATH, linhas);
         }
 
@@ -62,7 +61,6 @@ namespace EPlayers_AspNetCore.Models
             List<string> linhas = ReadAllLinesCSV(PATH);
             linhas.RemoveAll(x => x.Split(";")[0] == e.IdEquipe.ToString());
             linhas.Add(Prepare(e));
-
             ReWriteCSV(PATH, linhas);
         }
     }

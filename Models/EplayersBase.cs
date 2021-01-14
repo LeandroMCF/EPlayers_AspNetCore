@@ -8,7 +8,6 @@ namespace EPlayers_AspNetCore.Models
         public void CreateFolderAndFile(string _path)
         {
             string folder = _path.Split("/")[0];
-            string file = _path.Split("/")[1];
 
             if(!Directory.Exists(folder))
             {
@@ -17,14 +16,14 @@ namespace EPlayers_AspNetCore.Models
 
             if(!File.Exists(_path))
             {
-                File.Create(_path);
+                File.Create(_path).Close();
             }
         }
 
-        public List<string> ReadAllLinesCSV(string path)
+        public List<string> ReadAllLinesCSV(string _path)
         {
             List<string> linhas = new List<string>();
-            using(StreamReader file = new StreamReader(path))
+            using(StreamReader file = new StreamReader(_path))
             {
                 string linha;
                 
