@@ -9,13 +9,13 @@ namespace EPlayers_AspNetCore.Controllers
     [Route("Equipe")]
     public class EquipeController : Controller
     {
-        Equipe equipe = new Equipe();
+        Equipe equipeModel = new Equipe();
 
         [Route("Listar")]
 
         public IActionResult Index()
         {
-            ViewBag.Equipes = equipe.ReadAll();
+            ViewBag.Equipes = equipeModel.ReadAll();
             return View();
         }
 
@@ -48,8 +48,8 @@ namespace EPlayers_AspNetCore.Controllers
             }
             //Upload Final
 
-            equipe.Create(novaEquipe);
-            ViewBag.Equipes = equipe.ReadAll();
+            equipeModel.Create(novaEquipe);
+            ViewBag.Equipes = equipeModel.ReadAll();
 
             return LocalRedirect("~/Equipe/Listar");
         }
@@ -57,8 +57,8 @@ namespace EPlayers_AspNetCore.Controllers
         [Route("{id}")]
         public IActionResult Excluir(int id)
         {
-            equipe.Delete(id);
-            ViewBag.Equipes = equipe.ReadAll();
+            equipeModel.Delete(id);
+            ViewBag.Equipes = equipeModel.ReadAll();
 
             return LocalRedirect("~/Equipe/Listar");
         }
