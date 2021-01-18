@@ -14407,8 +14407,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\leand\\OneDrive\\Área de Trabalho\\Senai\\EPlayers_AspNetCore\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\leand\\OneDrive\\Área de Trabalho\\Senai\\EPlayers_AspNetCore\\Views\\Login\\index.cshtml",
+      "TargetPath": "Views\\Login\\index.cshtml",
       "FileKind": "mvc"
     },
     {

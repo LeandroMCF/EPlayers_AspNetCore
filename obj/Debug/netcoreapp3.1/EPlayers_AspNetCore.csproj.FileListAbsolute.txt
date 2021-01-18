@@ -21,7 +21,6 @@ C:\Users\leand\OneDrive\Área de Trabalho\Senai\EPlayers_AspNetCore\obj\Debug\ne
 C:\Users\leand\OneDrive\Área de Trabalho\Senai\EPlayers_AspNetCore\obj\Debug\netcoreapp3.1\EPlayers_AspNetCore.RazorCoreGenerate.cache
 C:\Users\leand\OneDrive\Área de Trabalho\Senai\EPlayers_AspNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Equipe\Index.cshtml.g.cs
 C:\Users\leand\OneDrive\Área de Trabalho\Senai\EPlayers_AspNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\leand\OneDrive\Área de Trabalho\Senai\EPlayers_AspNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\leand\OneDrive\Área de Trabalho\Senai\EPlayers_AspNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\leand\OneDrive\Área de Trabalho\Senai\EPlayers_AspNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\leand\OneDrive\Área de Trabalho\Senai\EPlayers_AspNetCore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
@@ -35,3 +34,4 @@ C:\Users\leand\OneDrive\Área de Trabalho\Senai\EPlayers_AspNetCore\obj\Debug\ne
 C:\Users\leand\OneDrive\Área de Trabalho\Senai\EPlayers_AspNetCore\obj\Debug\netcoreapp3.1\EPlayers_AspNetCore.pdb
 C:\Users\leand\OneDrive\Área de Trabalho\Senai\EPlayers_AspNetCore\obj\Debug\netcoreapp3.1\EPlayers_AspNetCore.genruntimeconfig.cache
 C:\Users\leand\OneDrive\Área de Trabalho\Senai\EPlayers_AspNetCore\obj\Debug\netcoreapp3.1\EPlayers_AspNetCore.csproj.CopyComplete
+C:\Users\leand\OneDrive\Área de Trabalho\Senai\EPlayers_AspNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Login\index.cshtml.g.cs
