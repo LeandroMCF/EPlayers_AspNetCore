@@ -3,12 +3,11 @@ using EPlayers_AspNetCore.Models;
 
 namespace EPlayers_AspNetCore.Interfaces
 {
-    public interface IPartidas
+    public interface IJogador
     {
-          void Create(Partida p);
-
-         List<Partida> ReadAll();
-         void Update(Partida p);
+         void Create (Jogador j);     
+         List<Jogador> ReadAll();
+         void Update(Jogador j);
          void Delete(int id);
     }
 }

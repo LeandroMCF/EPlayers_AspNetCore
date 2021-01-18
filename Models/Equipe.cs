@@ -45,11 +45,11 @@ namespace EPlayers_AspNetCore.Models
             foreach (var item in linhas)
             {
                 string[] linha = item.Split(";");
-
                 Equipe novaEquipe = new Equipe();
                 novaEquipe.IdEquipe = int.Parse(linha[0]);
                 novaEquipe.Nome = linha[1];
                 novaEquipe.Imagem = linha[2];
+                
                 equipes.Add(novaEquipe);
             }
 

@@ -517,6 +517,10 @@ table img{
    .mob_logo_sociais{
        padding: 15px;
    }
+
+   .erro{
+       color: #fc1e8b;
+   }
    
   
 } /* Fim media mas 460px*\
